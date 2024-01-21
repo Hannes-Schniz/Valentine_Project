@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./no-dialogue.component.scss']
 })
 export class NoDialogueComponent {
+  very= ""
 
+  verysure() {
+    this.very = this.very + "very "
+  }
 }
