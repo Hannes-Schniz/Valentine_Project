@@ -7,18 +7,24 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { ValentineCardComponent } from './valentine-card/valentine-card.component';
+import { NoDialogueComponent } from './no-dialogue/no-dialogue.component';
+import { YesDialogueComponent } from './yes-dialogue/yes-dialogue.component';
+import {MatDialogModule} from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ValentineCardComponent
+    ValentineCardComponent,
+    NoDialogueComponent,
+    YesDialogueComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

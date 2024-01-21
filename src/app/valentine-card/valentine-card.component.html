@@ -1,7 +1,11 @@
 <div class="content">
   <h1>Will you be my Valentine?</h1>
   <div class="button-container">
-    <button mat-raised-button color="primary">Yes</button>
-    <button mat-raised-button color="warn">No</button>
+    <button mat-raised-button class="yes-button" (click)="yes_button()">
+      Yes
+    </button>
+    <button mat-raised-button class="no-button" (click)="no_button()">
+      No
+    </button>
   </div>
 </div>
